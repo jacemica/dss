@@ -48,7 +48,7 @@ CockroachDB
     CockroachDB for performance characteristics and operational caveats. We list
     some of the caveats that we've run into below:
 
-### CockroachDB Notes
+## CockroachDB Notes
 *   CockroachDB (CRDB) currently uses certificates to authenticate clients and
     node to node communication. All of Node certs, client certs, and even a CA
     cert are all generated through the cockroach cli. The CA certs must be
